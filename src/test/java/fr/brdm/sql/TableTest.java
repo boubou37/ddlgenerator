@@ -1,5 +1,6 @@
 package fr.brdm.sql;
 
+import fr.brdm.config.Filenames;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
@@ -22,7 +23,7 @@ public class TableTest {
 
     @Before
     public void setUp() throws Exception {
-        tableFile = new FileReader(this.getClass().getClassLoader().getResource("DM_TABLES.csv").getPath());
+        tableFile = new FileReader(this.getClass().getClassLoader().getResource(Filenames.TABLES.toString()).getPath());
         csvp = CSVFormat.RFC4180.withFirstRecordAsHeader().parse(tableFile);
     }
 
