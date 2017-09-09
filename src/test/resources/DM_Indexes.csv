@@ -1,0 +1,4 @@
+Index_Name,ObjectID,NumOID,ImportID,ContainerID,Num_ContainerID,State Type,Functional,Expression,Engineer,Table_Name,Spatial_Index,Spatial_Layer_Type,Geodetic_Index,Number_Of_Dimensions
+"Employee_PK",56F345B0-BDF7-D0A1-2B3C-D4FBD37C4460,77,,DF281374-6F61-8076-8A56-D679DE665345,71,Primary Constraint,,N,Y,"Employee",N,,,,
+"Company_PK",3F03DDB8-0F88-C4B2-777A-583CF950A049,78,,079EE98F-B33B-EE29-5ABB-7A93465C4D7E,70,Primary Constraint,,N,Y,"Company",N,,,,
+"Employee_Company_FK",016ED9CD-8F27-298F-DB34-63668ECA2DC3,79,,DF281374-6F61-8076-8A56-D679DE665345,71,Foreign Key,,N,Y,"Employee",N,,,,

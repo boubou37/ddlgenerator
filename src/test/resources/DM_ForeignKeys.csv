@@ -1,0 +1,2 @@
+FK_Name,ModelID,Num_ModelID,ObjectID,NumOID,ImportID,Child_Table_Name,Referred_Table_Name,Engineer,Delete_Rule,Child_Table_ID,Num_Child_Table_ID,Referred_Table_ID,Num_Referred_Table_ID,Referred_Key_ID,Num_Referred_Key_ID,Number_Of_Columns
+"Employee_Company_FK",857E6A46-1CEF-F401-571C-1354E88098AB,69,A016A519-E6E3-FC92-92D6-21EFA6DCBE38,80,,Employee,Company,Y,NO ACTION,DF281374-6F61-8076-8A56-D679DE665345,71,079EE98F-B33B-EE29-5ABB-7A93465C4D7E,70,3F03DDB8-0F88-C4B2-777A-583CF950A049,78,1,

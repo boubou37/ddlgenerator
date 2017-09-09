@@ -1,0 +1,1 @@
+Relation_Name,ModelID,Num_ModelID,ObjectID,NumOID,ImportID,Source_Entity_Name,Target_Entity_Name,Source_Label,Target_Label,SourceTo_Target_Cardinality,TargetTo_Source_Cardinality,Source_Optional,Target_Optional,Dominant_Role,Identifying,Source_ID,Num_Source_ID,Target_ID,Num_Target_ID,Number_Of_Attributes

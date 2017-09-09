@@ -1,0 +1,3 @@
+Table_Name,ObjectID,NumOID,ImportID,ModelID,Num_ModelID,Structured_Type_ID,Num_Structured_Type_ID,Structured_Type_Name,Number_Data_Elements,Classification_Type,Allow_Type_Substitution,Min_Volume,Expected_Volume,Max_Volume,Growth_Rate_Percents,Growth_Rate_Interval,Normal_Form,Temporary_Object_Scope,Adequately_Normalized,Substitution_Parent,Num_Substitution_Parent,Engineer,Spatial_Table,OID_is_PK,OID_is_User_Defined,Include_Scripts_Into_DDL
+"Company",079EE98F-B33B-EE29-5ABB-7A93465C4D7E,70,,857E6A46-1CEF-F401-571C-1354E88098AB,69,,,,1,,Y,0,0,9999999,0,Year,Third,,N,,,Y,N,N,Y,N,
+"Employee",DF281374-6F61-8076-8A56-D679DE665345,71,,857E6A46-1CEF-F401-571C-1354E88098AB,69,,,,4,,Y,0,0,9999999,0,Year,Third,,N,,,Y,N,N,Y,N,
