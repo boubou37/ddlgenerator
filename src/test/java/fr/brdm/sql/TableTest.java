@@ -8,7 +8,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.File;
 import java.io.FileReader;
 import java.io.Reader;
 import java.util.List;
@@ -37,7 +36,7 @@ public class TableTest {
 
         Assert.assertEquals(table.getName(),"Company");
         Assert.assertEquals(table.getNum_ID(),70);
-        Assert.assertEquals(table.getoID(),"079EE98F-B33B-EE29-5ABB-7A93465C4D7E");
+        Assert.assertEquals(table.getOID(),"079EE98F-B33B-EE29-5ABB-7A93465C4D7E");
     }
 
 }

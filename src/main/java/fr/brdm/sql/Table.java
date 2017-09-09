@@ -4,16 +4,16 @@ import org.apache.commons.csv.CSVRecord;
 
 public class Table {
 
-    private String oID;
+    private String OID;
     private int num_ID;
     private String name;
 
-    public String getoID() {
-        return oID;
+    public String getOID() {
+        return OID;
     }
 
-    public void setoID(String oID) {
-        this.oID = oID;
+    public void setOID(String OID) {
+        this.OID = OID;
     }
 
     public int getNum_ID() {
@@ -38,8 +38,9 @@ public class Table {
     public Table(CSVRecord record) {
         this.load(record);
     }
+
     private void load(CSVRecord record) {
-        this.oID = record.get("ObjectID");
+        this.OID = record.get("ObjectID");
         this.num_ID = Integer.parseInt(record.get("NumOID"));
         this.name = record.get("Table_Name");
     }

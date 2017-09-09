@@ -96,7 +96,7 @@ public class Sequence {
         }
         Map<String,String> values = new HashMap<String, String>();
         values.put("prefix",String.valueOf(PREFIX));
-        values.put("inc",String.valueOf(this.increment));
+        values.put("inc",String.valueOf(increment));
         values.put("seq",String.valueOf(tableName));
         values.put("start",String.valueOf(startValue));
         values.put("min",String.valueOf(minValue));
