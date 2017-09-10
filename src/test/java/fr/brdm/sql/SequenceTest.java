@@ -1,6 +1,7 @@
 package fr.brdm.sql;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,8 +18,14 @@ public class SequenceTest {
     }
 
     @Test
-    public void test1() throws Exception {
-        s.getTable().setName("BLOBBY");
-        System.out.println(s.toString());
+    public void test_CorrectSequenceIsGenerated() throws Exception {
+        s.getTable().setName("TEST");
+        String expected = "CREATE SEQUENCE SEQ_TEST\n" +
+                "INCREMENT BY 1\n" +
+                "START WITH 1\n" +
+                "MINVALUE 1\n" +
+                "MAXVALUE 9999999999 CYCLE\n" +
+                "CACHE 20;";
+        Assert.assertEquals(s.toString().trim(),expected.trim());
     }
 }
